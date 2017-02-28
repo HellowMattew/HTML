@@ -89,23 +89,39 @@
 		<h1>这里以后是一个侧栏，这是侧栏的标题</h1>
 		<h1>侧栏注册窗口标题</h1>
 		
-		请输入邮箱地址：<input type="email" name="user_email" value="这是一个文本输入框" /><br />
-		邮箱地址请按要求格式输入<br />
-		请输入密码：<input type="text"  value="这是一个文本输入框"/>
-		请重复输入密码：<input type="text"  value="这是一个文本输入框"/>
-		<p>密码请输入6-16位英文数字</p>
-		性别：<input type="radio" value="男"  name="gender" checked="checked"/><label for="man">男</label>
-		      <input type="radio" value="女" name="gender"/><label for="woman">女</label>
+		<label for="input_email">
+			请输入邮箱地址：<input type="email" name="user_email" value="这是一个文本输入框" /><br />
+			邮箱地址请按要求格式输入<br />
+		</label>
+		
+		<label for="input_password">
+			请输入密码：<input type="text"  value="这是一个文本输入框"/>
+			请重复输入密码：<input type="text"  value="这是一个文本输入框"/>
+			<p>密码请输入6-16位英文数字</p>
+		</label>
+		
+		<label for="choose_gender">
+			性别：<input type="radio" value="男"  name="gender" checked="checked"/><label for="man">男</label>
+			      <input type="radio" value="女" name="gender"/><label for="woman">女</label>
+			<label for="choose_city">
+	    </label>
+	    
+	    <label for="choose_city">
 		城市：    
 		    <select>
 		         <option value="city">北京</option>  	
 		         <option value="city" selected="selected">深圳</option>  
 		    </select>
+		</label>
+		
+		<label for="choose_hobby">
 		爱好：      
 		    <input type="checkbox" value="city"  />运动
 		    <input type="checkbox" value="city"  />艺术
 		    <input type="checkbox" value="city"  />科学
-		    个人描述：<textarea rows="2" >这是一个多行输入框，输入您的个人描述</textarea><input type="submit" value="确认提交"/><br />
+		</label>
+		
+		 个人描述：<textarea rows="2" >这是一个多行输入框，输入您的个人描述</textarea><input type="submit" value="确认提交"/><br />
 		
 		版权所有&copy;
 		
