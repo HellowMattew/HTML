@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p{
+    text-indent: 2em;	
+}
+
+img
+{
+	max-width: 50%;
+	max-height: 50%;
+}
+
+nav
+{
+	height: 70px;
+	background: rgb(51, 50, 50);
+}
+
+#baidu_nav
+{
+	margin:20px;
+}
+nav ul
+{
+	color: #FFFFFF;
+	float: right;
+}
+
+nav ul li
+{	
+	float: right;
+	list-style: none;
+	padding: 5px;
+	margin-top: 20px;	
+}
+
+nav ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.section1, .section2, .section3, .section4
+{
+	box-shadow: 0 0 5px #000000;
+	margin: 15px;
+	padding: 20px;
+}
+
+.img1, .img2, .img3, .img4, .img5
+{
+    border: 2px solid #000000;
+    margin-left: 60px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.section3
+{
+    padding-bottom: 20px;	
+}
+
+.section3 img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.section4
+{
+    padding: 10px;	
+}
+
+.section4 ol
+{
+	margin-left: 40px;
+}
+.section4 table
+{
+	width: 100%;
+	text-align: left;
+}
+
+.section4 tr
+{
+	border: 0;
+}
+.section4 thead
+{
+	background: black;
+	color: #FFFFFF;
+}
+
+.section4 tfoot
+{
+	background: gray;
+}
+
+aside
+{
+	margin: 30px 15px 15px 15px;
+	display: block;
+	border: 1px solid #808080;
+	box-shadow: 0 0 5px #000000;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+aside h1
+{
+	text-align: left;
+	display: block;
+	border-left: 4px solid #808080;
+	margin:10px 0 0 10px;
+}
+
+
+.warn_word1, .warn_word2
+{
+	color: #808080;
+}
+
+aside
+{
+	text-align: center;
+}
+
+footer
+{
+	background: black;
+	color: #FFFFFF;
+	text-align: center;
+	height: 50px;
+	padding-top: 20px;
+}
+
+
+.submit_input
+{
+	height: 30px;
+	width: 750px;
+	border-radius: 7px;
+	color: #FFFFFF;
+	background: blue;
+	
+}
+
+.table_div
+{
+	margin-left: 210px;
+}
+
+.tr_td_right
+{
+	text-align: left;
+}
+
+.tr_td_left
+{
+	text-align: right;
+}
