@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<h1>网站一级标题</h1>
+		
+		<ul>
+			<li><a href="#">导航链接一</a></li>
+			<li><a href="#">导航链接二</a></li>
+			<li><a href="#">导航链接三</a></li>
+			<li><a href="#">导航链接四</a></li>
+		</ul>
+		
+		<h2>网站二级标题</h2>
+		<h2>网站二级标题</h2>
+		<p>文章作者 文章发表时间 </p>
+		<p>这是一个很长的标题，这是一个很长的标题，这是一个很长的标题</p>
+		<img href="css/" />
+		<p>这是一个很长的标题，这是一个很长的标题，这是一个很长的标题 </p>
+		<h1>另一个文章一级标题</h1>
+		<p>文章二级标题</p>
+		
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+		
+		<h1>图片</h1>
+		<img src="" />
+		<h1>最后一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+		<p>文章作者 文章发表时间</p>
+		
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p>下面是一个表格</p>
+		<table border=2>
+			<thead>
+				<tr><th>表头</th><th>表头</th><th>表头</th></tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td>操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td>操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td>操作</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td>操作</td>
+				</tr>
+			<tfoot>
+				<td>总计</td><td>1000</td>
+			</tfoot>
+			</tbody>
+		</table>
+		
+		请输入密码：<input type="text"  value="这是一个文本输入框"/>
+		请输入密码：<input type="text"  value="这是一个文本输入框"/>
+		<p>密码请未6-16位英文数字</p>
+		性别：<input type=""
+	</body>
+</html>
